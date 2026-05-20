@@ -62,8 +62,7 @@ margin-bottom:60px;
 </head>
 
 <body>
-    <h1 class="heading">hello world!</h1>
-    <div id="desktop-files">파일들 위치</div>
+    <div id="desktop-files">Quick GOTOs(<-이거가 바로 바로가기 같은거임)</div>
     <div id="taskbar">
         <button class="taskbar-app" title="파일 관리자">📁</button>
         <button class="taskbar-app" title="브라우저">🌐</button>
@@ -75,15 +74,7 @@ margin-bottom:60px;
         <button class="taskbar-app" title="이미지 뷰어">🖼️</button>
     </div>
     <script>
-        const heading = document.querySelectorAll(".heading");
-        let color = 0;
-        setInterval(() => {
-            color += 1;
-            const hue = color % 360;
-            heading.forEach((element) => {
-                element.style.color = `hsl(${hue}, 100%, 35%)`;
-            });
-        }, 16);
+        // 근데 이거는 왜넣음?
 
         // 태스크바 앱 버튼 클릭 이벤트
         const apps = {
