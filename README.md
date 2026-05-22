@@ -40,3 +40,21 @@ echo <문자>
 15. 쿼스트로 AI(고급 버전, HTML에서 5000원 결제 후 사용)
 
 </details>
+<details>
+<summary>Log</summary>
+
+---
+
+```bash
+cls
+```
+콘솔을 비웁니다.
+
+---
+
+```bash
+echo <문자>
+```
+`<문자>`에 입력된 값을 그대로 출력합니다. 메아리라고 생각하시면 편합니다.
+
+</details>
