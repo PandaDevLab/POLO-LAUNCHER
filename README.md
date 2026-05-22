@@ -43,6 +43,8 @@ echo <문자>
 <details>
 <summary>Log</summary>
 log기능 있음.</br>
+오류가 있을때 로그파일 포함해서 이슈 올리면 답변 작성해줌
+작성해줌</br>
 
 ---
 
