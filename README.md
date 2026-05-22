@@ -43,4 +43,8 @@ echo <문자>
 <details>
 <summary>Log</summary>
 log기능 있음.
+클릭시 -> clickevent('x좌표,y좌표')
+입력시 -> keyboardevent('입력값')
+시스템 부팅 -> bootevent('on/off')
+앱 실행 -> appstart('앱명')
 </details>
