@@ -54,5 +54,5 @@ log기능 있음.</br>
 시스템 부팅 -> bootevent('on/off')</br>
 앱 실행 -> appstart('앱명')</br>
 새로운 앱 설치 -> appinstall('앱의 패키지명')</br>
-앱에서 시스템 계층 호출 -> apptosystemcall(')
+앱에서 시스템 계층 호출 -> apptosystemcall('앱명','행동')
 </details>
