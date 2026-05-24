@@ -1,0 +1,6 @@
+flask
+flask-socketio
+flask-wtf
+flask-sqlalchemy
+gevent
+gevent-websocket

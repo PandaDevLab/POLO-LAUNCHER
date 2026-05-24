@@ -1,4 +1,22 @@
-!pip install flask flask_socketio flask_wtf flask_sqlalchemy gevent geventwebsocket
+import subprocess
+import sys
+from pathlib import Path
+
+
+def _ensure_dependencies():
+    try:
+        import flask  # noqa: F401
+        import flask_socketio  # noqa: F401
+        import flask_sqlalchemy  # noqa: F401
+        import flask_wtf  # noqa: F401
+        import gevent  # noqa: F401
+        import geventwebsocket  # noqa: F401
+    except ImportError:
+        req = Path(__file__).resolve().parent / "requirements.txt"
+        subprocess.check_call([sys.executable, "-m", "pip", "install", "-r", str(req)])
+
+
+_ensure_dependencies()
 from gevent import monkey
 monkey.patch_all()
 from flask import *
