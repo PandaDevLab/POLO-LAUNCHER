@@ -2,7 +2,7 @@ import re
 from tqdm import tqdm
 import time, random
 import os as sysOS
-p_echo = re.compile("echo\s(.*)", re.DOTALL)
+p_echo = re.compile(r"echo\s(.*)", re.DOTALL)
 p_cls = re.compile("cls")
 # TODO: 파일 시스템 기능 제작
 class OS:
