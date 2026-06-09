@@ -44,7 +44,7 @@ def get_data(filename):
         
         # 보안: 상대경로 벗어나기 방지
         if not str(file_path.resolve()).startswith(str(data_dir.resolve())):
-            return {"error": "Invalid file path"}, 400
+            return {"error": "File not found"}, 404
         
         # 파일이 존재하는지 확인
         if not file_path.exists():
