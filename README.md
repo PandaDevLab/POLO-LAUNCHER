@@ -2,6 +2,14 @@
 Polo luncher is great luncher. Made with danilab
 (참고 : C 폴더는 windows의 C:/ 저장소같은거임.)
 POLO Launcher의 기능을 알아보세요
+
+<details>
+    <summary>브랜치 규칙</summary>
+모든 수정사항이 있을 때는, 브랜치를 각자 만든 뒤, 그 브랜치에서 수정 후, 끌어와야 합니다.</br>
+브랜치 명은 'feature/닉네임/번경내용(welcome-screen 처럼)으로 해야 합니다.</br>
+끌어오기 요청은 다른 사람이 수락해 줘야 합니다.</br>
+하지만, 3일 이내 수락이 안될 경우, 끌어오기 요청을 만든 사람이 수락할 수 있습니다.</br>
+</details>
 <details>
 <summary>Shell</summary>
 
