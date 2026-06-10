@@ -1,6 +1,6 @@
 # POLO-LAUNCHER
 Polo luncher is great luncher. Made with danilab
-(참고 : C 폴더는 windows의 C:/ 저장소같은거임.)
+
 POLO Launcher의 기능을 알아보세요
 
 <details>
@@ -62,4 +62,10 @@ log기능 있음.</br>
 앱 실행 -> appstart('앱명')</br>
 새로운 앱 설치 -> appinstall('앱의 패키지명')</br>
 앱에서 시스템 계층 호출 -> apptosystemcall('앱명','행동')
+</details>
+<details>
+<summary>포트</summary>
+log기능 있음.</br>
+호스팅 : 6767
+로그 전송 : 6766
 </details>
