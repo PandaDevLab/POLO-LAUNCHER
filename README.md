@@ -9,6 +9,8 @@ POLO Launcher의 기능을 알아보세요
 브랜치 명은 'feature/닉네임/번경내용(welcome-screen 처럼)으로 해야 합니다.</br>
 끌어오기 요청은 다른 사람이 수락해 줘야 합니다.</br>
 하지만, 3일 이내 수락이 안될 경우, 끌어오기 요청을 만든 사람이 수락할 수 있습니다.</br>
+</br>
+README.md와 .github폴더 내부를 수정하는 것은 끌어오기 요청이 필요 없습니다.</br>
 </details>
 <details>
 <summary>Shell</summary>
